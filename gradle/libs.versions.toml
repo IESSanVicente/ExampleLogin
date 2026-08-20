@@ -10,9 +10,11 @@ activityCompose = "1.13.0"
 kotlin = "2.4.10"          # ya existe en el catálogo generado por Android Studio
 composeBom = "2026.08.00"
 
+# ── DataStore ────────────────────────────────────────
+datastore = "1.2.1"
 # ── Red ──────────────────────────────────────────────
 retrofit = "3.0.0"
-okhttp = "5.4.0"
+okhttp = "5.5.0"
 gson = "2.14.0"
 # ── Navegación y serialización ───────────────────────
 navigationCompose = "2.9.8"
@@ -35,6 +37,8 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
 
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }

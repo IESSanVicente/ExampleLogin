@@ -54,6 +54,9 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
+    // DataStore Preferences
+    implementation(libs.androidx.datastore.preferences)
+
     // Red
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
